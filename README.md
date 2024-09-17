@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/fc9d4655-97a8-4c2d-a4af-078bda9ae739)# Challenge-03 ¡Viva México!
+# Challenge-03 ¡Viva México!
 
 
 
