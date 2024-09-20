@@ -127,6 +127,47 @@ height = 80%>
 <image src="CHALLENGE03-2/05-PyramidTop5.png" width=80% height=80%>
 <image src="CHALLENGE03-2/06-PyramidTop6.png" width=80% height=80%>
 
+<h2>Creando la escalera principal</h2>
+
+<p>Para realizar la escalera principal de la pirámide, primero tuvimos que ubicar en cuál de los lados se encontrará la entrada principal. Luego de esto, tenemos que "aplanar" los muros a lo largo del centro de la pirámide para simular una rampa que ocupa toda su altura.</p>
+<p>Escogemos algunas caras en el segundo nivel más alto de la pirámide...</p>
+
+<image src="CHALLENGE03-2/07-Ramp1.png" width=80% height=80%>
+
+<p>Utilizamos la operación de <code>Extrude Faces</code>...</p>
+
+<image src="CHALLENGE03-2/08-Ramp2.png" width=80% height=80%>
+
+<p>Luego seleccionamos las <bold>esquinas</bold> (<code>Edges</code>) de las caras que levantamos...</p>
+
+<image src="CHALLENGE03-2/09-Ramp3.png" width=80% height=80%>
+
+...y las llevamos hacia el tope de su próximo nivel inferior.
+
+<image src="CHALLENGE03-2/10-Ramp4.png" width=80% height=80%>
+
+<p>Ahora, ya hemos creado una rampa desde el segundo nivel más alto hasta el tope de la pirámide. Vamos a extender esta rampa para que llegue hasta la superficie. Para lograr esto, repetimos los pasos anteriores para los otros niveles.</p>
+
+<p>Ahora para el tercer nivel más alto...</p>
+
+<image src="CHALLENGE03-2/11-Ramp5.png" width=80% height=80%>
+<image src="CHALLENGE03-2/12-Ramp6.png" width=80% height=80%>
+<image src="CHALLENGE03-2/13-Ramp7.png" width=80% height=80%>
+<image src="CHALLENGE03-2/14-Ramp8.png" width=80% height=80%>
+
+<p>Para el cuarto nivel...</p>
+
+<image src="CHALLENGE03-2/15-Ramp9.png" width=80% height=80%>
+<image src="CHALLENGE03-2/16-Ramp10.png" width=80% height=80%>
+<image src="CHALLENGE03-2/17-Ramp11.png" width=80% height=80%>
+<image src="CHALLENGE03-2/18-Ramp12.png" width=80% height=80%>
+
+<p>...y ahora, ¡para el último nivel!</p>
+
+<image src="CHALLENGE03-2/19-Ramp13.png" width=80% height=80%>
+<image src="CHALLENGE03-2/20-Ramp14.png" width=80% height=80%>
+<image src="CHALLENGE03-2/21-Ramp15.png" width=80% height=80%>
+
 <h2>Creación del Terreno</h2>
 
 <p>Para crear un terreno utilizamos un <code>Game 3D Object</code> similar a como creamos una esfera, cubo, cilindro etc.</p>
