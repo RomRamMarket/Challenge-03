@@ -2,13 +2,21 @@
 
 
 
-<h2>Reflexión </h2>
-<p>ESTA ES LA REFLEXION.</p>
+<h1>Reflexión </h1>
+<h2>Gabriel Romero</h2>
+<h2>Sebastian Ramirez</h2>
+<h2>Yadiel Mercado</h2>
+<p>Encontré muy interesante la gran variedad de assets que se pueden conseguir en el store de Unity. Aun cuando estés en un “budget” y no quieras usar mucho dinero en assets, hay una gran variedad de opciones gratis y de costo muy bajo que se ven increíbles. Personalmente, me encantan las opciones “Low Poly” porque me gusta ver como los artistas hacen la naturaleza como árboles, piedras y plantas con pocos recursos así haciendo assets que no son pesados en términos de memoria pero aun con esa circunstancia se ven hermosos. Muchos juegos que me han encantado son una mezcla entre el estilo "low-poly" con shaders "Cel-shaded" y casi todos son juegos indies. Esto me empuja a esforzarme a entender y aprender cómo usar estos elementos para algún día crear mi propio videojuego.</p>
 
 
 
 <h2>LORE</h2>
-<p>Este es el lore</p>
+<p>Necuazomoc era una ciudad granjera de la civilizacion azteca. Aquí, vivía una comunidad de granjeros quienes cosechaban mucho maíz en sus terrenos grandes y habichuelas detrás de sus hogares. En su centro, había una gran pirámide hermosa donde hacían sacrificios a los dioses para así asegurar una cosecha maravillosa con que puedan intercambiar y tener sobras para alimentarse bien. Alrededor de esta pirámide, había un río rodeado por árboles que separaban la ciudad del suelo sagrado de la pirámide, nadie excepto los curas que llevaban sacrificios y aquellos “Llamados” pueden entrar a esta área. Estos “Llamados” usualmente eran personas escogidas por los dioses mismos para que entren a la pirámide, pero nadie sabía qué era lo que sucedió con estas personas, ya que al ir, nunca regresaban. </p>
+	<p>Una noche, volvió a ocurrir una llamada divina por lo cual estos escogidos abandonaron sus vidas y caminaron hacia la tierra sagrada de la pirámide para servirle a sus dioses. Al llegar, la tierra en la que se paraban tembló horriblemente y llegaron unos vientos fuertes y ruidosos y al final, una luz tan brillante que dejó a todos los llamados ciegos e inconscientes.Al abrir sus ojos, estaban aún en la tierra sagrada de la pirámide, pero notaron que algo se sentía diferente en el aire. Intentaron dar la vuelta a la ciudad cuando se dieron cuenta que no había nada después del terreno de su pirámide, solo un bosque infinito de árboles grandes y verdes. Algunos salieron a verificar si encontraban un fin a este bosque infinito pero se rindieron luego de muchas horas y regresaron a la pirámide. Al regresar, se dan cuenta que los animales que antes estaban hechos de…origami.</p>
+<p>Ningún llamado podía creer lo que estaban viendo: serpientes, aves, vacas, cerdos, conejos y gallos…hechos de papel?! Comenzó un pánico entre todos, ¿qué comerían ahora? No encuentran sus cosechas y los animales estaban hechos de papel! Aun con estos pensamientos, dos personas hambrientas fueron a perseguir uno de los gallos del área cual corrió hacia la pirámide y chocó contra su base lo cual causó otro gran terremoto. Al finalizar este terremoto, no hubo vientos ni luces, pero los llamados poco a poco se congelaron al mirar a la cima de su pirámide, donde ahora se encontraban dos gallos origamis gigantescos.
+-”Hermano” se detuvo el primer gallo “Al parecer tenemos visitantes.”
+-”Esto será MUY divertido” dijo mientras reía el segundo gallo.
+-”Bienvenidos todos… a la tierra del Origami!”</p>
 
 
 <h2>Preparando Herramientas de trabajo.</h2>
