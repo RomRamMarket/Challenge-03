@@ -351,6 +351,65 @@ height = 80%>
   width = 65%
   height = 65%>
 
+<h2>Un cambio pequeño a la luz...</h2>
+
+<p>Antes...</p>
+<image src="CHALLENGE03-2/23-DirLight1.png" width=80% height=80%>
+<p>¡Despúes!</p>
+<image src="CHALLENGE03-2/24-DirLight2.png" width=80% height=80%>
+
+<h2>Añadiendo materiales (color) a la pirámide</h2>
+
+<p>Para añadirle textura o color a la pirámide, tenemos que crear materiales y aplicárselos. Si nos dirigimos a <code>Assets -> Create -> Material</code>, se nos abrirá una nueva ventana donde podemos editar el nuevo material que creamos. Además, se debe poder ver el nuevo material en nuestra carpeta de <code>Assets</code>. A este material nuevo lo llamamos <code>PyramidMat</code>.</p>
+
+<p>En el Inspector, editamos los parámetros como se muestran en la siguiente imagen. Le damos una superficie no metálica, opaca, y con un color dorado.</p>
+
+<image src="CHALLENGE03-2/MatEx1.png">
+<image src="CHALLENGE03-2/MatEx2.png">
+
+<p>Si ahora realizamos un "drag and drop" de nuestro material hacia la pirámide, obtendremos un excelente resultado.</p>
+
+<image src="CHALLENGE03-2/25-Mat1.png" width=80% height=80%>
+
+<p>Para darle más color a nuestra pirámide, crearemos un segundo material con un color distinto y se lo aplicaremos. Creamos otro material y a este le llamamos <code>PyramidMat2</code>.</p>
+
+<image src="CHALLENGE03-2/MatEx3.png">
+<image src="CHALLENGE03-2/MatEx4.png">
+
+<p>Ahora, para aplicar más colores a la pirámide, tendremos que realizar un proceso un poco distinto. Ya no es tan simple como "drag and drop" el material.</p>
+
+<p>Seleccionamos la pirámide y abrimos la ventana de ProBuilder nuevamente. Nos dirigimos hacia una nueva pestaña: el <code>Material Editor</code>. En la sección de <code>Material Palette</code>, veremos una lista de materiales vacía. Llenaremos los primeros dos encasillados con los materiales que creamos. En la siguiente imagen se muestra el resultado:</p>
+
+<image src="CHALLENGE03-2/MatEx5.png">
+
+<p>En nuestro caso, <code>PyramidMat2</code> ahora está asociado con el botón <code>Alt + 2</code>.</p>
+
+<p>Ahora, seleccionamos todas las caras superiores del primer nivel...</p>
+
+<image src="CHALLENGE03-2/27-Mat3.png" width=80% height=80%>
+
+<p>Oprimimos el botón de <code>Alt + 2</code> que asociamos con el material...</p>
+
+<image src="CHALLENGE03-2/28-Mat4.png" width=80% height=80%>
+
+<p>...y ahora, le hemos añadido más color a nuestra pirámide.</p>
+<p>Ahora, simplemente repetiremos el proceso para los otros niveles de la pirámide.</p>
+
+<image src="CHALLENGE03-2/29-Mat5.png" width=80% height=80%>
+<image src="CHALLENGE03-2/30-Mat6.png" width=80% height=80%>
+<image src="CHALLENGE03-2/31-Mat7.png" width=80% height=80%>
+<image src="CHALLENGE03-2/32-Mat8.png" width=80% height=80%>
+<image src="CHALLENGE03-2/33-Mat9.png" width=80% height=80%>
+
+<p>También le añadiremos color a las esquinas de la rampa para simular las escaleras principales.</p>
+
+<image src="CHALLENGE03-2/34-Mat10.png" width=80% height=80%>
+<image src="CHALLENGE03-2/35-Mat11.png" width=80% height=80%>
+
+<p>¡Finalmente hemos completado la pirámide!</p>
+
+<image src="CHALLENGE03-2/36-Mat12.png" width=80% height=80%>
+
 <h2>Buscando assets en el asset store</h2>
 <p>Primero, iremos al tope de nuestra ventana de Unity y vamos a: <code>Windows > Asset Store</code></p>
 
