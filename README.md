@@ -166,7 +166,7 @@ height = 80%>
 <p>Para poder poner texturas en el terreno, primero hay que decidir qué texturas utilizaremos. Una vez decidimos que texturas utilizaremos nos aseguramos que estén guardadas en una carpeta dentro de la carpeta de Scenes. En nuestro caso decidimos elegir dos texturas, una similar a un cesped seco, y otra un poco más verde, para combinarlas y crear un buen efecto para la grama. (añadir fotos de las texturas). Las texturas pueden ser formato <Code>png</Code> o <code>jpeg</code>. </p>
 
 <image
-  src="CHALLENGE03/importTextures.png"
+  src="importTextures.png"
   width = 80%
   height = 80%>
 
@@ -182,6 +182,11 @@ height = 80%>
   width = 30%
   height = 30%>
 
+<p>Textura de césped con barro.</p>
+  <image
+  src="muddy.png"
+  width = 30%
+  height = 30%>
 
 <h2> Añadiendo texturas</h2>
 <p>Para añadir las texturas al terreno seleccionamos <code>Paint Textures</code> y luego <code>Edit terrain layers</code>, entonces presionamos <code>Create Layer</code>. Ahi nos aparecerán nuestras texturas antes guardadas y las seleccionamos ambas. La primera se va a aplicar al terreno inmediatamente, pero lo hará de una forma poco natural.</p>
@@ -209,6 +214,13 @@ height = 80%>
   width = 80%
   height = 80%>
 
+  <p>Una vez que se continuó con los demás trabajos se añadió la textura del césped con barro.</p>
+
+  <image
+  src="muddy2.png"
+  width = 80%
+  height = 80%>
+
 
 
 
@@ -230,8 +242,50 @@ height = 80%>
   height = 65%>
 
 
+<h2> Creando Lago</h2>
+
+<p>Para crear de alguna manera algo que simule ser un lago en los alrededores de la ciudad utilizamos un <code>Game 3D Object Cube</code> </p>
+<p>Pero antes de comenzar con el cubo debemos crear el material con el que se pintará. Para esto creamos un nuevo Folder que llamaremos <code>Materials</code>.</p>
 
 
+<image
+  src="materials.png"
+  width = 65%
+  height = 65%>
+
+
+<p>Una vez creado el Folder procedemos a crear el material.</p>
+
+<image
+  src="materials2.png"
+  width = 65%
+  height = 65%>
+
+  <p> Luego decidimos el color que tendrá el material, en esta área podemos ajustarlo conforme a nuestras necesidades y gustos. <strong>Importante</strong> notar que el <code>surface type</code> es <code>transparent</code> para crear un poco el efecto de transparencia del agua.</p>
+
+<image
+  src="color.png"
+  width = 65%
+  height = 65%>
+
+
+
+  <h2>Aplicando el material al cubo</h2>
+<p>Una vez el material y el cubo están creados solo queda arrastrar el material hacia el cubo y la magia ocurrirá.</p>
+<image
+  src="pintar.png"
+  width = 65%
+  height = 65%>
+
+
+
+    <h2>Duplicando y alargando cubo </h2>
+<p> Ya que tenemos un cubo del color que deseamos solo queda alargarlo para que ocupe todo el espacio que queremos y duplicarlo para que cubra los otros angulos del terreno.</p>
+<image
+  src="rio.png"
+  width = 65%
+  height = 65%>
+  
 
 <h2>Creando casetas de arriba de la pirámide</h2>
 <p>Para crear las casetas de arriba de la piramide vamos a utilizar nuevamente probuilder. Similar a como creamos el objeto del plano que se convirtió en la pirámide, ahora crearemos un cubo. Utilizando subdivide Object dividiremos el cubo de manera que tenga 16 sub caras en cada cara. (4x4x4) </p>
