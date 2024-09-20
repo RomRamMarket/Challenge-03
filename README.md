@@ -168,6 +168,10 @@ height = 80%>
 <image src="CHALLENGE03-2/20-Ramp14.png" width=80% height=80%>
 <image src="CHALLENGE03-2/21-Ramp15.png" width=80% height=80%>
 
+<p>Listo.</p>
+
+<image src="CHALLENGE03-2/22-Ramp16.png" width=80% height=80%>
+
 <h2>Creación del Terreno</h2>
 
 <p>Para crear un terreno utilizamos un <code>Game 3D Object</code> similar a como creamos una esfera, cubo, cilindro etc.</p>
