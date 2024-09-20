@@ -276,13 +276,79 @@ height = 80%>
   src="pintar.png"
   width = 65%
   height = 65%>
-
-
-
-    <h2>Duplicando y alargando cubo </h2>
+<h2>Duplicando y alargando cubo</h2>
+  
 <p> Ya que tenemos un cubo del color que deseamos solo queda alargarlo para que ocupe todo el espacio que queremos y duplicarlo para que cubra los otros angulos del terreno.</p>
 <image
   src="rio.png"
   width = 65%
   height = 65%>
+
+<h2>Buscando assets en el asset store</h2>
+<p>Primero, iremos al tope de nuestra ventana de Unity y vamos a: <code>Windows > Asset Store</code></p>
+
+<image
+src="AssetStore/assetstore.png"
+width = 65%
+height = 65%>
+
+<p>Luego, cuando abra una ventanita de asset store le daremos al boton <code>Search online</code> que nos llevara a nuestro navegador y podremos buscar assets</p>
+
+<image
+src="AssetStore/assetstore2.png"
+width = 65%
+height = 65%>
+
+<p>Dentro del asset store, buscaremos tres assets que usaremos en nuestro mundo <code>Low Poly Vegetation Kit Lite</code>, <code>Stylized NPC - Peasant Nolant (DEMO)</code> y <code>Origami Animals Pack</code>. Le daremos al boton de: <code>Add to My Assets > Open In Unity</code>.</p>
+
+<image
+src="AssetStore/plantlife.png"
+width = 65%
+height = 65%>
+
+<image
+src="AssetStore/civilians.png"
+width = 65%
+height = 65%>
+
+<image
+src="AssetStore/origami.png"
+width = 65%
+height = 65%>
+
+<p>Cuando ya bajemos todos los assets que usaremos, al darle <code>Add to My Assets > Open In Unity</code> al ultimo asset pack instalado o manualmente buscarlo de la manera:</p>
+
+<image
+src="AssetStore/packageman.png"
+width = 65%
+height = 65%>
+
+<image
+src="AssetStore/packageman2.png"
+width = 65%
+height = 65%>
+
+<p>Podramos ver que en la esquina de abajo en la derecha habra un boton <code>Download</code> que presionaremos y cuando termine le daremos al <code>Import</code> para poder usar los assets en nuestro proyecto. Con esto, estaremos CASI listos para poblar nuestra escena.</p>
+
+<h2>Haciendo upgrade los assets del store al URP que usamos en nuestro proyecto</h2>
+<p>Es muy posible que cuando intente usar los assets de la internet, no se vean muy bien renderizados en su Unity, esto es porque los renderers pueden diferir entre asset y tu propio Unity. Para poder usarlos, tendremos que usar algo llamado <code>Window > Rendering > Render Pipeline Converter</code> para upgrade los shaders <code>Built-in</code> al <code>URP</code> que utilizamos en este proyecto</p>
+
+<image
+src="AssetStore/rpc.png"
+width = 65%
+height = 65%>
+
+<p>Al estar en la ventana del RPC, cambiaremos el dragdown a <code>Built-in to URP</code>. Luego, le marcaremos todas las cajitas negras vacias que se nos presenten como <code>Rendering Settings</code> y le daremos <code>Initialize Converters</code>. </p>
+
+<image
+src="AssetStore/rpc2.png"
+width = 65%
+height = 65%>
+
+<p>Cuando este termine, le daremos clic a <code>Convert Assets</code> para finalizar el proceso. Ya debemos poder ver nuestros assets importados sin problema alguno!</p>
+
+<image
+src="AssetStore/final.png"
+width = 65%
+height = 65%>
   
