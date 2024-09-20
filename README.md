@@ -106,12 +106,26 @@ height = 80%>
   width = 80%
   height = 80%>
 
+<h2>Añadiendo las casetas al tope de la pirámide</h2>
 
+<p>Para crear las casetas, primero debemos utilizar ProBuilder para crear más caras en la parte superior. Escogemos todas las caras en la parte superior y utilizamos la operación de <code>Subdivide Faces</code> para lograr esto.</p>
 
+<image src="CHALLENGE03-2/01-PyramidTop1.png" width=80% height=80%>
+<image src="CHALLENGE03-2/ProBuilderEx1.png">
 
+<p>Ahora que hemos subdividido las caras, seleccionamos algunas cerca de los costados donde se ubicarán las casetas como se muestra en la siguiente imagen:</p>
 
+<image src="CHALLENGE03-2/02-PyramidTop2.png" width=80% height=80%>
+<image src="CHALLENGE03-2/03-PyramidTop3.png" width=80% height=80%>
 
+<p>Ahora realizamos la extrusión y...</p>
 
+<image src="CHALLENGE03-2/04-PyramidTop4.png" width=80% height=80%>
+
+<p>¡Voilá!</p>
+
+<image src="CHALLENGE03-2/05-PyramidTop5.png" width=80% height=80%>
+<image src="CHALLENGE03-2/06-PyramidTop6.png" width=80% height=80%>
 
 <h2>Creación del Terreno</h2>
 
